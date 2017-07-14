@@ -24,6 +24,8 @@ sox -r 2048000 -e unsigned -b 8 -c 2 filename2.raw outputfile2.wav
 #sleep 1
 #sox -r 2048000 -e unsigned -b 8 -c 2 filename5.raw outputfile5.wav
 
+#copy .wav files to their own folder.
+Copy-Item 'C:\Users\Justin\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\*.wav' C:\Users\Justin\Desktop\WavFiles
 
 #wait again, and then cd to where java project .jar was saved, and run it.
 sleep 1
